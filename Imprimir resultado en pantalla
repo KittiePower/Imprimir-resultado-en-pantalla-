@@ -1,0 +1,27 @@
+/******************************************************************************
+Imprimir resultado en pantalla 
+Autor: Elisa Michelle MV.
+Fecha: 230322
+*******************************************************************************/
+   
+#include <iostream>
+  using namespace std;
+
+int
+main () 
+{
+  
+    //DeclaraciC3n de variables 
+    float numerosolicitado, resultadopantalla;
+  
+ 
+    //Entrada de datos por teclado y procedimientos 
+std::cout<<" Escribe el valor del numerosolicitado  ";
+std::cin >> numerosolicitado;
+resultadopantalla = numerosolicitado * 2 + 25,
+std::cout<< " El resultado en pantalla es igual a  " << resultadopantalla <<std::endl;
+  
+ 
+return 0;
+
+}
